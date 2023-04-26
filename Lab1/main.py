@@ -1,4 +1,5 @@
 def prefix_function(s: str):
+    """Алгоритм построения префикс-массива строки"""
     n = len(s)
     pi = [0 for i in range(n)]
     for i in range(1, n):
@@ -10,7 +11,10 @@ def prefix_function(s: str):
         pi[i] = j
     return pi
 
+
 def kmp(pattern: str, text: str):
+    """Алгоритм Кнутта-Морриса-Пратта поиска
+        подстроки в строке"""
     pi = prefix_function(pattern)
     ops_cnt = 0
     j = 0
@@ -32,8 +36,7 @@ def kmp(pattern: str, text: str):
 
 
 def naive(pattern: str, text: str):
-    """Возвращает индекс первого вхождения
-        подстроки в строку и количество операций"""
+    """Наивный алгоритм поиска полдстроки в строке"""
     p_len = len(pattern)
     t_len = len(text)
     ops_cnt = 0
@@ -50,8 +53,8 @@ def naive(pattern: str, text: str):
 
 
 def boyer_moore(pattern, text):
-    """Возвращает индекс первого вхождения
-        подстроки в строку и количество операций"""
+    """Алгоритм Бойера-Мура-Хорспула поиска
+        подстроки в строке"""
     p_len = len(pattern)
     t_len = len(text)
     ops_cnt = 0
