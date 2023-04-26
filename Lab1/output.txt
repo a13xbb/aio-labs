@@ -1,0 +1,168 @@
+bad_t_1.txt bad_w_1.txt
+--------------------------
+Naive algorithm:
+Index: 8
+Operations count: 18
+Time in seconds: 0.0
+--------------------------
+Boyer-Moore algorithm:
+Index: 8
+Operations count: 10
+Time in seconds: 0.0
+--------------------------
+Knuth-Morris-Pratt algorithm:
+Index: 8
+Operations count: 10
+Time in seconds: 0.0
+--------------------------
+Index according to python string.find(): 8
+
+
+
+good_t_1.txt good_w_1.txt
+--------------------------
+Naive algorithm:
+Index: 599
+Operations count: 633
+Time in seconds: 0.0005002021789550781
+--------------------------
+Boyer-Moore algorithm:
+Index: 599
+Operations count: 78
+Time in seconds: 0.0
+--------------------------
+Knuth-Morris-Pratt algorithm:
+Index: 599
+Operations count: 34
+Time in seconds: 0.0
+--------------------------
+Index according to python string.find(): 599
+
+
+
+bad_t_2.txt bad_w_2.txt
+--------------------------
+Naive algorithm:
+Index: 90
+Operations count: 910
+Time in seconds: 0.0
+--------------------------
+Boyer-Moore algorithm:
+Index: 90
+Operations count: 100
+Time in seconds: 0.0005004405975341797
+--------------------------
+Knuth-Morris-Pratt algorithm:
+Index: 90
+Operations count: 100
+Time in seconds: 0.0
+--------------------------
+Index according to python string.find(): 90
+
+
+
+good_t_2.txt good_w_2.txt
+--------------------------
+Naive algorithm:
+Index: 610
+Operations count: 695
+Time in seconds: 0.0
+--------------------------
+Boyer-Moore algorithm:
+Index: 610
+Operations count: 104
+Time in seconds: 0.0
+--------------------------
+Knuth-Morris-Pratt algorithm:
+Index: 610
+Operations count: 85
+Time in seconds: 0.0005006790161132812
+--------------------------
+Index according to python string.find(): 610
+
+
+
+bad_t_3.txt bad_w_3.txt
+--------------------------
+Naive algorithm:
+Index: 900
+Operations count: 90100
+Time in seconds: 0.007998943328857422
+--------------------------
+Boyer-Moore algorithm:
+Index: 900
+Operations count: 1000
+Time in seconds: 0.0
+--------------------------
+Knuth-Morris-Pratt algorithm:
+Index: 900
+Operations count: 1000
+Time in seconds: 0.0005004405975341797
+--------------------------
+Index according to python string.find(): 900
+
+
+
+good_t_3.txt good_w_3.txt
+--------------------------
+Naive algorithm:
+Index: 1629
+Operations count: 2074
+Time in seconds: 0.0010001659393310547
+--------------------------
+Boyer-Moore algorithm:
+Index: 1629
+Operations count: 432
+Time in seconds: 0.0
+--------------------------
+Knuth-Morris-Pratt algorithm:
+Index: 1629
+Operations count: 445
+Time in seconds: 0.0004994869232177734
+--------------------------
+Index according to python string.find(): 1629
+
+
+
+bad_t_4.txt bad_w_4.txt
+--------------------------
+Naive algorithm:
+Index: 4000
+Operations count: 4001000
+Time in seconds: 0.3540046215057373
+--------------------------
+Boyer-Moore algorithm:
+Index: 4000
+Operations count: 5000
+Time in seconds: 0.0014965534210205078
+--------------------------
+Knuth-Morris-Pratt algorithm:
+Index: 4000
+Operations count: 5000
+Time in seconds: 0.001500844955444336
+--------------------------
+Index according to python string.find(): 4000
+
+
+
+good_t_4.txt good_w_4.txt
+--------------------------
+Naive algorithm:
+Index: 9522
+Operations count: 9614
+Time in seconds: 0.002997159957885742
+--------------------------
+Boyer-Moore algorithm:
+Index: 9522
+Operations count: 490
+Time in seconds: 0.0
+--------------------------
+Knuth-Morris-Pratt algorithm:
+Index: 9522
+Operations count: 92
+Time in seconds: 0.0015003681182861328
+--------------------------
+Index according to python string.find(): 9522
+
+
+
